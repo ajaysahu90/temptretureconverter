@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/pexels-pixabay-33109.jpg);
+  }
+  
+  .container {
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    color: #333333;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
